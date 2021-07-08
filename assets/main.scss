@@ -1,6 +1,7 @@
 ---
 ---
 
+
 @import "variables";
 @import "bootstrap/bootstrap";
 @import "syntax-highlighting";
@@ -29,7 +30,7 @@ body {
     }
 }
 #navbar,
-.sidebar,
+.sidebar
 {
     float: right !important;
     margin-right: -15px;
