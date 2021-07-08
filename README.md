@@ -40,4 +40,4 @@ To add content as pages, you have to focus on 2 regions of the codebase.
 2. `git commit -m "message"`
 3. `git push`
 
-After some time, you can see the rendered site at: http://merrit-brian.github.io/Workshop-Content-JHU
+After some time, you can see the rendered site at: https://merritt-brian.github.io/Workshop-Content-JHU
