@@ -8,8 +8,6 @@ description: > # this means to ignore newlines until "show_excerpts:"
 show_excerpts: false # set to true to show excerpts on the homepage
 github-username: "Merritt-Brian"
 markdown: CommonMarkGhPages
-github:
-  repository_url: "https://github.com/Merritt-Brian/Workshop-Content-JHU"
 commonmark:
   options: ["SMART", "FOOTNOTES"]
   extensions: ["strikethrough", "autolink", "table", "tagfilter"]
