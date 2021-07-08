@@ -11,6 +11,7 @@
       url: /training/bioinformatics
     - title: Phylogenetics
       url: /training/phylogenetics
+      modules: /trees
 - title: Supplemental
   sublinks:
     - title: Partners and Funding
