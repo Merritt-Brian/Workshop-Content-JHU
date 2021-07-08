@@ -1,21 +1,20 @@
-title: Genomic Epidimiology
+title: Gecko
 name: Merritt-Brian
 email: brian.merritt@jhuapl.edu
 description: > # this means to ignore newlines until "show_excerpts:"
-  Base site for Workshop Content
+  Base site for Gecko
 # baseurl: "Basestack" # the subpath of your site, e.g. /blog
 # url: "https://jhuapl-bio.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 show_excerpts: false # set to true to show excerpts on the homepage
 github-username: "Merritt-Brian"
 markdown: CommonMarkGhPages
+github:
+  repository_url: "https://github.com/Merritt-Brian/Workshop-Content-JHU"
 commonmark:
   options: ["SMART", "FOOTNOTES"]
   extensions: ["strikethrough", "autolink", "table", "tagfilter"]
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-sass:
-  sass_dir: _sass
-  style: compressed
 minima:
   date_format: "%b %-d, %Y"
   # generate social links in footer
@@ -62,4 +61,3 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
- - jekyll-optional-front-matter
