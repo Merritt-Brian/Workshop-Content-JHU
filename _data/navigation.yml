@@ -5,6 +5,11 @@
   sublinks:
     - title: Theory
       url: /training/theory
+      modules:
+        - title: Introduction to Pathogen Sequencing
+          url: /pathogen_sequencing
+        - title: Introduction to Genomic Epidemiology
+          url: /genomic_epidemiology
 - title: Supplemental
   sublinks:
     - title: Partners and Funding
