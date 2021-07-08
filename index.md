@@ -16,4 +16,3 @@ If you are interested in being considered for participation in a future workshop
 Are you a trainer looking to feature your training materials and/or opportunities on this website? Get in touch!
 
 
-[Partners and Funding]({{site.baseurl}}{% link pages/partners_and_funding.md %})
