@@ -1,36 +1,39 @@
 
 - title: Home
   url: /
-- title: Installation
+- title: Training
   sublinks:
-    - title: Windows
-      url: /install/windows
-    - title: Mac
-      url: /install/mac
-    - title: Linux
-      url: /install/linux
-    - title: Troubleshooting
-      url: /install/troubleshooting
-    - title: Uninstall
-      url: /install/uninstall
-- title: Pipelines
-  sublinks:
-    - title: Consensus
-      url: /pipelines/basestack_consensus
-    - title: Tutorials
-      url: /pipelines/workshop_tutorials
-    - title: RAMPART
-      url: /pipelines/rampart
-    - title: Nexstrain
-      url: /pipelines/nextstrain
-    - title: IGV
-      url: /pipelines/igv
+    - title: Theory
+      url: /training/theory
+      modules:
+        - title: Introduction to Pathogen Sequencing
+          url: /pathogen_sequencing
+        - title: Introduction to Genomic Epidemiology
+          url: /genomic_epidemiology
+    - title: Laboratory
+      url: /training/laboratory
+      modules:
+        - title: Laboratory Methods for Pathogen Sequencing 
+          url: /pathogen_sequencing
+        - title: Fluorometric DNA Quantitation 
+          url: /dna_quantification
+        - title: Setting Up a MinION Sequencing Run
+          url: /setting_up_minion
+        - title: Loading the MinION Sequencer
+          url: /loading_minion
+    - title: Bioinformatics
+      url: /training/bioinformatics
+      modules:
+        - title: Basestack
+          url: /basestack
+    - title: Phylogenetics
+      url: /training/phylogenetics
+      modules:
+        - title: Phylogenetic Trees
+          url: /trees
 - title: Supplemental
   sublinks:
-    - title: MinKNOW 
-      url: /supplemental/minknow_guppy
+    - title: Partners and Funding
+      url: /supplementary/partners_and_funding
     - title: Additional Software
-      url: /supplemental/supplemental_software
-    - title: Info
-      url: /supplemental/info
-
+      url: /supplementary/supplemental_software
