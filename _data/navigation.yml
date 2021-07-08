@@ -2,4 +2,12 @@
 - title: Home
   url: /
 - title: Training
-
+  sublinks:
+    - title: Theory
+      url: /training/theory
+- title: Supplemental
+  sublinks:
+    - title: Partners and Funding
+      url: /supplementary/partners_and_funding
+    - title: Additional Software
+      url: /supplementary/supplemental_software
