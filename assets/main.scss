@@ -90,11 +90,11 @@ body {
     float:right;
     padding:0px;
 }
-.dropdown-menu li:hover,
-.dropdown-menu li:focus,
-{
-    color: #666666;
-}
+// .dropdown-menu li:hover,
+// .dropdown-menu li:focus,
+// {
+//     color: #666666;
+// }
 .dropdown-menu li{
     text-align:left;
     margin-left: 15px;
@@ -111,5 +111,5 @@ ul {
     padding-left: 0;
 }
 .inner-bullet{
-    font-size: 5px;
+    font-size: 10px;
 }
