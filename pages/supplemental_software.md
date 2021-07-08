@@ -3,13 +3,10 @@ layout: post
 title:  "Software"
 date:   2021-03-31 15:26:36 -0400
 categories: jekyll update
-permalink: /supplemental/supplemental_software
+permalink: /supplementary/supplemental_software
 ---
 
-<strong>These tools are optional and not needed to run any Basestack feature</strong>
-
-<strong>They are not bundled within Basestack (supplemental to bioinformatic/genomics analysis) and must be downloaded separately. They are (mainly) discussed in the bioinformatics modules of the workshop provided with Basestack</strong>
-
+<strong>These tools are discussed and used within the [Phylogenetics]({{site.baseurl}}{% link pages/phylogenetics.md %}) and [Bioinformatics]({{site.baseurl}}{% link pages/bioinformatics.md %}) modules. </strong>
 
 * BEAST v1.10.4: 
 	- https://beast.community/
