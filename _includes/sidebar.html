@@ -17,7 +17,38 @@
                 </div>
                 <div id="collapse-{{link.title}}"  class="collapse show card-body card" aria-labelledby="{{ link.title }}" >
                   <ul >
-                      
+                      {% for sublink in link.sublinks %}
+                          {% if sublink.title == 'separator' %}
+                              <li role="separator" class="divider"></li>
+                          {% else %}
+                              <li style="padding:0">
+                                <div class="card">
+                                  <div class="card-header" id="header-{{sublink.title}}">
+                                    <h5 class="mb-0">
+                                      <button class="btn btn-link"  data-toggle="collapse" data-target="#collapse-{{sublink.title}}" aria-expanded="true" aria-controls="collapseOne">
+                                      {{sublink.title}}</button>
+                                    </h5>
+                                  </div>
+                                  <div id="collapse-{{sublink.title}}" class="collapse show" aria-labelledby="{{ sublink.title }}" >
+                                    <div class="card card-body" >
+                                      <ul class="list-unstyled;" style="padding: 0;
+                                      list-style-type: none;">
+                                        {% for section in sublink.modules %}
+                                          {% if section.title == 'separator' %}
+                                              <li role="separator" class="divider"></li>
+                                          {% else %}
+                                            <li class="inner-bullet">
+                                                <a href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}{{module.url}}{{section.url}}">{{ section.title}}</a>
+                                            </li>
+                                          {% endif %}
+                                        {% endfor %}
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                          {% endif %}
+                      {% endfor %}
                   </ul>
                 </div>
               </div>

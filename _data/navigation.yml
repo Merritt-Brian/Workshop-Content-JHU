@@ -5,32 +5,12 @@
   sublinks:
     - title: Theory
       url: /training/theory
-      modules:
-        - title: Introduction to Pathogen Sequencing
-          url: /pathogen_sequencing
-        - title: Introduction to Genomic Epidemiology
-          url: /genomic_epidemiology
     - title: Laboratory
-      url: /training/laboratory
-      modules:
-        - title: Laboratory Methods for Pathogen Sequencing 
-          url: /pathogen_sequencing
-        - title: Fluorometric DNA Quantitation 
-          url: /dna_quantification
-        - title: Setting Up a MinION Sequencing Run
-          url: /setting_up_minion
-        - title: Loading the MinION Sequencer
-          url: /loading_minion
+      url: /training/laboratory      
     - title: Bioinformatics
       url: /training/bioinformatics
-      modules:
-        - title: Basestack
-          url: /basestack
     - title: Phylogenetics
       url: /training/phylogenetics
-      modules:
-        - title: Phylogenetic Trees
-          url: /trees
 - title: Supplemental
   sublinks:
     - title: Partners and Funding
