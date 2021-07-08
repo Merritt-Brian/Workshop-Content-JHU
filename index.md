@@ -4,16 +4,25 @@ title: Welcome
 ---
 
 
-The [NAME] aims to create, highlight, and distribute training materials related to pathogen sequencing, bioinformatics, and genomic epidemiology analysis. These materials are freely available online. Periodically, these materials are taught as part of in-person or virtual intensive training workshops, often with a particular pathogen in mind. We also maintain a Slack Workspace, where users can ask questions to other users and experienced trainers about laboratory protocols, bioinformatics steps, or phylogenetic analysis.
 
-Click here to access complete training courses, and click here to access individual training modules.
+![Step 3]({{site.baseurl}}/assets/img/homepage.png "Title")
 
-Interested in joining the Slack Workspace? Request access here.
+Basestack is a platform for rapid and real time analysis of Nanopore generated sequencing data. 
+  Basestack comes bundled with a series of both cutting edge public tools, 
+  some modified by JHU built phylogenetic and genomic pipelines, all integrated into a user interface 
+  ( that is quickly and seamlessly installable on all standard laptops on any of the major operating systems used today. 
+  Ultimately, the suite provides users with a means of quickly and accurately generating consensus sequences from viral 
+  data within minutes of starting. In addition, we provide a system for automated updates once the application is installed 
+  for any future changes or additions to the application that is fundamentally built upon the Docker Container ecosystem.
 
-If you are interested in being considered for participation in a future workshop (virtual or in-person), please fill out this form to tell us more about your goals and research questions.
+Please follow the sidebar links to review both installation steps for your distribution and additional information on the underlying pipelines.
+
+Basestack's recent releases can be found at: https://github.com/jhuapl-bio/Basestack/releases/
 
 
-Are you a trainer looking to feature your training materials and/or opportunities on this website? Get in touch!
 
 
-[Partners and Funding]({{site.baseurl}}{% link pages/partners_and_funding.md %})
+
+### Future Architecture for Consensus Generation
+
+![Step 3]({{site.baseurl}}/assets/img/Current_Future_Architecture_Basestack.jpg "Title")
