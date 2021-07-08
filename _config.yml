@@ -13,6 +13,9 @@ commonmark:
   extensions: ["strikethrough", "autolink", "table", "tagfilter"]
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+sass:
+  sass_dir: _sass
+  style: compressed
 minima:
   date_format: "%b %-d, %Y"
   # generate social links in footer
