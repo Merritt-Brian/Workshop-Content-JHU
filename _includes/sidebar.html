@@ -1,35 +1,64 @@
 <div class="sidebar" id="navbarSupportedContent">
     <div id="accordion">
       {% assign links = site.data.navigation %}
+        <ul  class="sidebar-ul">
         {% for link in links %}
             {% assign class = nil %}
             {% if page.url contains link.url %}
                 {% assign class = 'active' %}
             {% endif %}
             {% if link.sublinks %}
-              <div class="card">
-                <div class="card-header" id="header-{{link.title}}">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapse-{{link.title}}" aria-expanded="true" aria-controls="collapseOne">
-                      {{ link.title }}
-                    </button>
-                  </h5>
-                </div>
-                <div id="collapse-{{link.title}}"  class="collapse show card-body card" aria-labelledby="{{ link.title }}" >
+
+            <li class="list-unstyled sidebar-listing">
+              <!-- <a class=" " href="{{ site.url }}{{ site.baseurl }}{{ link.url }}"> -->
+                <h4>{{ link.title }}</h4>
+              <!-- </a> -->
+            </li>
+            {% for sublink in link.sublinks %}
+            {% if sublink.title == 'separator' %}
+                <li role="separator" class="divider"></li>
+            {% else %}
+            <li class="list-unstyled module-listing">
+              <a class="module-link" href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}">
+                <span>{{ sublink.title }}</span>
+              </a>
+              
+              <li role="separator" class="divider"></li>
+              {% for sublink-inner in sublink.sublinks %}
+              {% if sublink-inner.title == 'separator' %}
+                  <li role="separator" class="divider"></li>
+              {% else %}
+                <li class="list-unstyled submodule-listing" >
+                  <a class="submodule-link" href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}{{ sublink-inner.url }}">
+                    <span>{{ sublink-inner.title }}</span>
+                  </a>
+                  
+                </li>
+              {% endif %}
+              {% endfor %}
+            {% endif %}
+            {% endfor %}
+                
+            </li>
+              
+                
+                
+                <!-- <div id="collapse-{{link.title}}" aria-labelledby="{{ link.title }}" >
                   <ul >
                       {% for sublink in link.sublinks %}
                           {% if sublink.title == 'separator' %}
                               <li role="separator" class="divider"></li>
                           {% else %}
                               <li style="padding:0">
-                                <div class="card">
+                                <a href="{{ site.url }}{{ site.baseurl }}{{section.url}}">{{ section.title}}</a> -->
+                                <!-- <div class="card">
                                   <div class="card-header" id="header-{{sublink.title}}">
                                     <h5 class="mb-0">
                                       <button class="btn btn-link"  data-toggle="collapse" data-target="#collapse-{{sublink.title}}" aria-expanded="true" aria-controls="collapseOne">
-                                      {{sublink.title}}</button>
+                                      </button>
                                     </h5>
-                                  </div>
-                                  <div id="collapse-{{sublink.title}}" class="collapse show" aria-labelledby="{{ sublink.title }}" >
+                                  </div> -->
+                                  <!-- <div id="collapse-{{sublink.title}}" class="collapse show" aria-labelledby="{{ sublink.title }}" >
                                     <div class="card card-body" >
                                       <ul class="list-unstyled;" style="padding: 0;
                                       list-style-type: none;">
@@ -44,19 +73,22 @@
                                         {% endfor %}
                                       </ul>
                                     </div>
-                                  </div>
-                                </div>
-                              </li>
+                                  </div> 
+                                </div> -->
+                              <!-- </li>
                           {% endif %}
                       {% endfor %}
                   </ul>
-                </div>
-              </div>
-              {% else %}
-                <li class="list-unstyled">
-                    <a class="" href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
-                </li>
-              {% endif %}
+                </div> -->
+              
+          {% else %}
+            <li class="list-unstyled distinct-listing">
+                <a class="module-link" href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">
+                  <h4>{{ link.title }}</h4>
+                </a>
+            </li>
+          {% endif %}
         {% endfor %}
+        </ul>
       </div>
 </div>

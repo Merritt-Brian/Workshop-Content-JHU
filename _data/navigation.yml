@@ -1,7 +1,5 @@
-
-- title: Home
-  url: /
 - title: Training
+  url: /training
   sublinks:
     - title: Theory
       url: /training/theory
@@ -32,6 +30,7 @@
         - title: Phylogenetic Trees
           url: /trees
 - title: Supplemental
+  url: /supplementary
   sublinks:
     - title: Partners and Funding
       url: /supplementary/partners_and_funding

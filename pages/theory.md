@@ -8,9 +8,8 @@ permalink: /training/theory
 ---
 
 {% assign link = site.data.navigation[1].sublinks[0] %}
-{% for sublink in link.modules %}
-- [{{sublink.title}}]( {% link pages{{ sublink.url }}.md  %} )
+{% for sublink in link.sublinks %}
+[{{sublink.title}}]( {% link pages{{ sublink.url }}.md  %} )
 {% endfor %}
-
 
 
