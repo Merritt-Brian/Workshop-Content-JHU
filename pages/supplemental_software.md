@@ -6,7 +6,7 @@ categories: jekyll update
 permalink: /supplementary/supplemental_software
 ---
 
-<strong>These tools are discussed and used within the [Phylogenetics]({{site.baseurl}}{% link pages/phylogenetics.md %}) and [Bioinformatics]({{site.baseurl}}{% link pages/bioinformatics.md %}) modules. </strong>
+<strong>These tools are discussed and used within the [Phylogenetics]({{site.baseurl}}{% link pages/training/phylogenetics.md %}) and [Bioinformatics]({{site.baseurl}}{% link pages/training/bioinformatics.md %}) modules. </strong>
 
 * BEAST v1.10.4: 
 	- https://beast.community/

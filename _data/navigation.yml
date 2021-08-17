@@ -1,34 +1,85 @@
 - title: Training
   url: /training
   sublinks:
-    - title: Theory
+
+    - title: Complete Courses
+      url: /training/courses
+      sublinks:
+        - title: SARS-CoV-2 Genomics (Command Line)
+          url: /sarscov2_commandline
+        - title: SARS-CoV-2 Genomics (BaseStack)
+          url: /sarscov2_basestack
+
+    - title: Theory Modules
       url: /training/theory
       sublinks:
         - title: Introduction to Pathogen Sequencing
           url: /pathogen_sequencing
         - title: Introduction to Genomic Epidemiology
           url: /genomic_epidemiology
-    - title: Laboratory
+
+    - title: Laboratory Modules
       url: /training/laboratory
       sublinks:
-        - title: Laboratory Methods for Pathogen Sequencing 
-          url: /pathogen_sequencing
+        - title: Laboratory Methods
+          url: /lab_methods
         - title: Fluorometric DNA Quantitation 
           url: /dna_quantification
         - title: Setting Up a MinION Sequencing Run
           url: /setting_up_minion
         - title: Loading the MinION Sequencer
           url: /loading_minion
-    - title: Bioinformatics
+
+    - title: Bioinformatics Modules
       url: /training/bioinformatics
       sublinks:
-        - title: Basestack
-          url: /basestack
-    - title: Phylogenetics
+        - title: Introduction to Bioinformatics
+          url: /intro_bioinformatics
+        - title: Introduction to the Command Line
+          url: /command_line
+        - title: Running an Assembly Pipeline
+          url: /assembly_pipeline
+
+    - title: BaseStack Modules
+      url: /training/basestack
+      sublinks:
+        - title: Installing Docker
+          url: /docker_install
+        - title: Installing BaseStack
+          url: /basestack_install
+        - title: Starting BaseStack
+          url: /basestack_start
+        - title: Consensus Assembly in BaseStack
+          url: /basestack_consensus
+        - title: Generating BaseStack Reports
+          url: /basestack_report
+        - title: Additional Tabs in BaseStack
+          url: /basestack_tabs
+
+    - title: Phylogenetics Modules
       url: /training/phylogenetics
       sublinks:
+        - title: Manipulating Sequence Data
+          url: /sequence_manipulation
+        - title: Multiple Sequence Alignments
+          url: /sequence_alignment
         - title: Phylogenetic Trees
           url: /trees
+
+    - title: Phylodynamics Modules
+      url: /training/phylodynamics
+
+    - title: SARS-CoV-2 Modules
+      url: /training/sarscov2
+      sublinks:
+        - title: Genomic Data for SARS-CoV-2 I
+          url: /sarscov2_1
+        - title: Genomic Data for SARS-CoV-2 II
+          url: /sarscov2_2
+        - title: Genomic Data for SARS-CoV-2 III
+          url: /sarscov2_3
+
+
 - title: Supplemental
   url: /supplementary
   sublinks:
