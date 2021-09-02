@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Consensus"
+title:  "Consensus Assembly in BaseStack"
 date:   2021-03-31 15:26:36 -0400
 categories: jekyll update
-permalink: /pipelines/basestack_consensus
+permalink: /training/basestack/basestack_consensus
 ---
 
 ###  Running Consensus Generation and Reporting

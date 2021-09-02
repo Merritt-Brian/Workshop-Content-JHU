@@ -19,7 +19,7 @@ Below you will find the **theory** modules. These are modules that cover backgro
 
 #### Available Modules
 
-Introduction to Pathogen Sequencing\
+[Introduction to Pathogen Sequencing]({{site.baseurl}}{% link pages/training/theory/pathogen_sequencing.md %})\
 <font size="2">
 	&emsp;**Materials:** None\
 	&emsp;**Parent course:** [Genomic Epidemiology of SARS-CoV-2 (Command Line)]({{site.baseurl}}{% link pages/training/courses/sarscov2_commandline.md %})\
@@ -28,7 +28,7 @@ Introduction to Pathogen Sequencing\
 	&emsp;**Language:** English (with French subtitles). **Runtime:** 14 minutes
 </font> 
 
-Introduction to Genomic Epidemiology\
+[Introduction to Genomic Epidemiology]({{site.baseurl}}{% link pages/training/theory/genomic_epidemiology.md %})\
 <font size="2">
 	&emsp;**Materials:** None\
 	&emsp;**Parent course:** [Genomic Epidemiology of SARS-CoV-2 (Command Line)]({{site.baseurl}}{% link pages/training/courses/sarscov2_commandline.md %})\
